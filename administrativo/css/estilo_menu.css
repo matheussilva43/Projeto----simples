@@ -1,0 +1,82 @@
+
+
+
+/*MENU*/
+.menu{
+	display: block;/* exibido em bloco */
+	float: right;/* flutuar */
+	margin-top: 80px;
+	background-color: #8c8c8c;
+	
+}
+
+.borda{
+	border-radius: 10em 1em;
+
+}
+
+.menu li{
+	font-weight: bold;/* negrito */
+	text-transform: uppercase;/* negrito */
+	padding: 20px;/* espaçamento interno */
+	position: relative;
+	list-style: none;
+	float: left;
+	display: block;
+	height: 60px;
+
+}
+.menu li:hover{/* ao passar o mouse */
+	
+}
+
+.menu a{
+	color: rgba(255,255,255,0.9);/* "a" transparencia que tem a cor */
+	text-decoration: none;/* tirar a linha do link*/
+	text-shadow: 5px 5px 3px rgba(0,0,0,.6); /* SOMBRA TEXTO MENUM*/ 
+}
+.menu a:hover{
+	color:#000000;
+	text-decoration: underline;/* mostrar linha com o mouse */
+}
+.logo{
+	width: 400px;
+	height: 200px;
+}
+
+
+/* Sub Menu */
+
+.menu ul {
+	position: absolute;
+	top: 65px;
+	left: 0;
+	opacity: 0;
+	border-radius: 5px;
+	background: #CCC;
+
+}
+.menu li:hover > ul { opacity: 1; }
+
+.menu ul li {
+	height: 20px;
+	overflow: hidden;
+	padding: 5px;
+	
+}
+
+.menu li:hover > ul li {
+	height: 30px;
+	overflow: visible;
+	padding: 5px;
+}
+
+.menu ul li a {
+	width: 100px;
+	padding: 4px 0 4px 20px;
+	margin: 0;
+	border: none;
+}
+
+
+

@@ -1,0 +1,57 @@
+
+/* RESET
+	Iniciar o CSS sem qualquer estilo defino pelo navegador
+*/
+
+*{/* seletor */
+	margin: 0;
+	padding: 0;
+	font-family: Verdana;
+	font-style: italic;
+	text-decoration: none;
+	font-size: 100%;/* tamanho máximo */
+	box-sizing: border-box;/*levar em conta A e L*/
+}
+
+/*CORPO*/
+.corpo{
+	width: 100%; /* largura */
+}
+
+/*CONTEUDO*/
+.conteudo{
+	
+	width: :100%;
+	margin:0 auto;/*centralido na tela pc */
+	padding: 5px;
+
+}
+
+/*LOGO*/
+.logo{
+	width:300px;
+	height: 175px;
+
+}
+
+.cinza{
+	background-color: #BEBEBE;/*cinza - color (imagem)*/
+}
+
+/* LAYOUT DO TOPO -------*/
+.opacidade{
+	opacity: 0.7;
+}
+
+img{
+	width: 100%;
+	height: 100%;
+	border: 0;
+	padding: 5px;
+}
+
+/*CORES*/
+.fundoTopo{
+	background-image: url("imagens/topo.png");
+}
+/* ------------------------------------------------------------------------------- */
